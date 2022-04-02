@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProjektWspolnota</string>
+    <string name="InfoTitle">Wiadomości</string>
+    <string name="ResolutionListTitle">Uchwały do głosowania</string>
+    <string name="ResourceResultListTitle">Wyniki uchwał</string>
+    <string name="ReadListItemLabel">Czytaj</string>
+    <string name="result_list_label">Sprawdź wynik</string>
+    <string name="send">Wyślij</string>
+    <string name="exit">Wyjdź</string>
+    <string name="confirm">Potwierdź</string>
+    <string name="deny">Wróć</string>
+    <string name="no_vote">Przeciw</string>
+    <string name="yes_vote">Za</string>
+    <string name="abstain_vote">Wstrzymaj się</string>
+    <string name="title_activity_login">Wspólnota</string>
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Hasło</string>
+    <string name="action_sign_in">Zaloguj</string>
+    <string name="action_sign_in_short">Zaloguj</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="logOut">Wyloguj</string>
+    <string name="sendMessage">Wyślij wiadomość</string>
+</resources>

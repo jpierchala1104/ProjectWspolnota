@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="7dp" tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/pointNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceListItem"/>
+    </LinearLayout>
+    <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/resolutionText"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:background="@android:color/white"/>
+    <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/item_container"
+            android:background="@android:color/white">
+
+        <Button
+                android:text="@string/yes_vote"
+                android:drawableTop="@drawable/ic_yes"
+                android:layout_margin="5dp"
+                android:background="#709863"
+                android:id="@+id/voteYes"
+                android:padding="5dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"/>
+        <Button
+                android:text="@string/abstain_vote"
+                android:drawableTop="@drawable/ic_abstain"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@color/colorAccent"
+                android:id="@+id/abstain"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"/>
+        <Button
+                android:drawableTop="@drawable/ic_no"
+                android:text="@string/no_vote"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="#e33826"
+                android:id="@+id/voteNo"
+                android:layout_width="80dp"
+                android:layout_height="60dp"/>
+    </LinearLayout>
+</LinearLayout>
